@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body {
+    background-color: teal;
+    margin: 0;
+    padding: 0;
+}
+
+.main__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main__heading > h1 {
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    font-family: 'Akaya Telivigala', cursive;
+    text-shadow: 1px 1px 10px yellow;
+    text-transform: capitalize;
+}
+
+.button {
+    padding: 50px;
+}
+
+.button > .bulb__button {
+    margin: auto 40px;
+    padding: 15px 22px;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+    font-weight: 600;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+#bulbOn {
+    background-color: rgb(33, 179, 33);
+}
+
+#bulbOff {
+    background-color: rgba(216, 45, 45, 0.911);
+}
+
+#bulbOn:hover {
+    color: rgb(33, 179, 33);
+    background-color: white;
+}
+
+#bulbOff:hover {
+    color: rgba(216, 45, 45, 0.911);
+    background-color: white;
+}
+
+

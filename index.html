@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light On Off</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main__heading">
+        <h1>Can You turn on the bulb?</h1>
+
+        <img src="https://freepngimg.com/thumb/bulb/3-bulb-png-image-thumb.png" alt="bulboff" height="150px"
+            id="myImage" />
+
+        <div class="button">
+            <button id="bulbOn" class="bulb__button">Turn On Bulb</button>
+            <button id="bulbOff" class="bulb__button">Turn Off Bulb</button>
+        </div>
+
+
+    </div>
+    <script>
+        let bulbOn = document.getElementById('bulbOn');
+        let bulbOff = document.getElementById('bulbOff');
+
+        bulbOn.addEventListener("click", () => {
+            document.getElementById("myImage").src = "https://freepngimg.com/thumb/bulb/4-yellow-light-bulb-png-image-thumb.png"
+        })
+
+        bulbOff.addEventListener("click", () => {
+            document.getElementById("myImage").src = "https://freepngimg.com/thumb/bulb/3-bulb-png-image-thumb.png"
+        })
+
+    </script>
+</body>
+
+</html>
